@@ -1,29 +1,38 @@
 Clave Candidata 1: DNI del cliente.
 Clave Candidata 2: Número de teléfono.
-Clave Principal: DNI (se usa como clave principal).
+Clave Principal: DNI 
 Productos en la tienda de electrodomésticos:
 
 Clave Candidata 1: Nombre del producto + Marca.
 Clave Candidata 2: Modelo del producto.
-Clave Principal: Nombre del producto + Marca (se usa como clave principal).
+Clave Principal: Nombre del producto + Marca 
 Elementos químicos:
 
 Clave Candidata 1: Número Atómico.
 Clave Candidata 2: Símbolo químico.
-Clave Principal: Número Atómico (se usa como clave principal).
+Clave Principal: Número Atómico 
 Monstruos en un juego de computadora:
 
 Clave Candidata 1: Raza del monstruo + Descripción.
 Clave Candidata 2: Arma utilizada.
-Clave Principal: Raza del monstruo + Descripción (se usa como clave principal).
+Clave Principal: Raza del monstruo + Descripción 
 Productos de una fábrica de galletitas:
 
 Clave Candidata 1: Nombre del producto.
 Clave Candidata 2: Número de lote.
-Clave Principal: Se requiere un nuevo campo "ID" como clave principal porque no hay una clave única en los datos.
+""Clave Principal: Se requiere un nuevo campo "ID" como clave principal porque no hay una clave única en los datos.""
+
+
+
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+
 Parte 2: Implementación en SQLite
-
-
 Crear la tabla de clientes en SQLite con el DNI como clave principal:
 
 CREATE TABLE clientes (
